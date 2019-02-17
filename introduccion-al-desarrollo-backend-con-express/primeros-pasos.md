@@ -62,3 +62,5 @@ Si no quieres tener una cuenta en GitHub o no deseas hacer un **fork**, puedes d
 
 Ve a  [https://github.com/node-girls/express-workshop](https://github.com/node-girls/express-workshop), y busca el botón verde que dice "Clone or Download". Descarga los archivos como un `.zip` , después búscalo en tu ordenador y extrae el contenido donde desees guardarlo.
 
+![](../.gitbook/assets/fork.png)
+
