@@ -26,7 +26,7 @@ Copy the code to your own GitHub account, then download it
 - or -
 
 * Copia el código a tu propia cuenta de Github, para después descargarlo - o -
-* [Simplemente descarga el código \(avanza hasta el final de la página\)](../#lets-go)
+* [Simplemente descarga el código \(avanza hasta el final de la página\)](primeros-pasos.md#simplemente-descargalo)
 
 ### Copia el código a tu propia cuenta de Github
 
@@ -56,7 +56,7 @@ $ git clone https://github.com/YOUR-GITHUB-USERNAME/express-workshop
 
 Reemplaza YOUR-GITHUB-USERNAME con tu usuario de GitHub  🙃
 
-## Simplemente descárgalo
+### Simplemente descárgalo
 
 Si no quieres tener una cuenta en GitHub o no deseas hacer un **fork**, puedes descargarlo directamente desde el repositorio de Node Girls.
 
