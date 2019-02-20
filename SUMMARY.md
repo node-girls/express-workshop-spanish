@@ -14,5 +14,6 @@
   * [Capítulo 6: Servir archivos estáticos](introduccion-al-desarrollo-backend-con-express/taller/capitulo-6-servir-archivos-estaticos.md)
   * [Capítulo 7: Enviando los artículos de tu blog al servidor](introduccion-al-desarrollo-backend-con-express/taller/capitulo-7-enviando-los-articulos-de-tu-blog-al-servidor.md)
   * [Capítulo 8: Extraer la entrada del blog](introduccion-al-desarrollo-backend-con-express/taller/capitulo-8-extraer-la-entrada-del-blog.md)
+  * [Capítulo 9: Guardando tu artículo](introduccion-al-desarrollo-backend-con-express/taller/capitulo-9-guardando-tu-articulo.md)
 * [Glosario](introduccion-al-desarrollo-backend-con-express/glosario.md)
 
