@@ -157,5 +157,3 @@ Ah, para obtener un timestamp del momento actual, usa el método de JavaScript `
 
 **¡Buena suerte! Cuando acabes avanza al paso 10.**
 
-### ​ <a id="undefined"></a>
-
