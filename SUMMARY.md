@@ -16,5 +16,7 @@
   * [Capítulo 8: Extraer la entrada del blog](introduccion-al-desarrollo-backend-con-express/taller/capitulo-8-extraer-la-entrada-del-blog.md)
   * [Capítulo 9: Guardando tu artículo](introduccion-al-desarrollo-backend-con-express/taller/capitulo-9-guardando-tu-articulo.md)
   * [Capítulo 10: Mostrando tus artículos](introduccion-al-desarrollo-backend-con-express/taller/capitulo-10-mostrando-tus-articulos.md)
+  * [¡Enhorabuena!](introduccion-al-desarrollo-backend-con-express/taller/enhorabuena.md)
+* [Extras](introduccion-al-desarrollo-backend-con-express/extras.md)
 * [Glosario](introduccion-al-desarrollo-backend-con-express/glosario.md)
 
