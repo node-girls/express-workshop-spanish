@@ -22,9 +22,6 @@ El código necesario para este tutorial está en un **repositorio de Github.**
 
 Para conseguir el código, tienes dos opciones:
 
-Copy the code to your own GitHub account, then download it  
-- or -
-
 * Copia el código a tu propia cuenta de Github, para después descargarlo - o -
 * [Simplemente descarga el código \(avanza hasta el final de la página\)](primeros-pasos.md#simplemente-descargalo)
 
