@@ -18,7 +18,7 @@ Vamos a coger una página web como ejemplo. Una página web es una colección de
 
 Crea un nuevo archivo `server.js`. En él es donde el código de nuestro servidor va a vivir.
 
-### 2. `require` the Express library %%%
+### 2. Haz `require` a la librería
 
 Hemos instalado Express en el capítulo 2, pero necesitamos incluir la dependencia en este archivo para poder usar sus métodos. En NodeJs, cuando quieres acceder a las funcionalidades de una librería o **módulo** de otro archivo, tienes que requerirlo.
 
