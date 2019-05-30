@@ -34,6 +34,14 @@ Si miras en posts.json verás que ya hay un artículo. El formato es:
 
 Hemos usado **timestamp** como la clave para que los artículos se listen en orden cronológico. También registra la fecha de creación.
 
+Para hacer un timestamp basta con hacer:
+
+```text
+Date.now();
+```
+
+Puedes leer más sobre timestamps en JavaScript en el siguiente artículo de [Flavio Copes](https://flaviocopes.com/how-to-get-timestamp-javascript/).
+
 ## Guardando en tu disco duro <a id="writing-to-your-hard-drive"></a>
 
 Cada vez que un artículo llegue al servidor, queremos almacenar los datos en el disco duro de tu ordenador. Para hacer esto, necesitamos un módulo incorporado en NodeJs: `fs` , file system.
@@ -55,7 +63,9 @@ El método que necesitamos para escribir en tu disco duro es `fs.writeFile`
 {% code-tabs %}
 {% code-tabs-item title="server.js" %}
 ```javascript
-fs.writeFile('location-of-your-file-goes-here', yourData, function (error) {    // do something});
+fs.writeFile('location-of-your-file-goes-here', yourData, function (error) {    
+    // do something
+});
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -70,6 +80,21 @@ Vamos a echar un vistazo más detallado.
 
 Reemplaza `'location-of-your-file-goes-here'` con la dirección actual del archivo donde quieres escribir. Si no existe, `fs.writeFile`creará uno. Ya tenemos `posts.json`, asi que no hay de qué preocuparse.
 
+{% code-tabs %}
+{% code-tabs-item title="server.js" %}
+```javascript
+let examplePost = {[timestamp]: [blog post message]};
+fs.writeFile(__dirname + 'data/posts.json', examplePost, function (error) { 
+    if(error) {
+        console.log(error);
+    }else {
+        console.log(`${timestamp} was added successfully`);
+    }
+});
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 ## Leyendo tu disco duro <a id="reading-from-your-hard-drive"></a>
 
 Para leer datos que ya existen, usarías `fs.readFile`. La forma en la que usas `fs.readFile` es muy similar a `fs.writeFile`
@@ -77,7 +102,9 @@ Para leer datos que ya existen, usarías `fs.readFile`. La forma en la que usas 
 {% code-tabs %}
 {% code-tabs-item title="server.js" %}
 ```javascript
-fs.readFile('location-of-your-file-goes-here', function (error, file) {    // do something});
+fs.readFile('location-of-your-file-goes-here', function (error, file) {    
+    // do something
+});
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -94,7 +121,9 @@ Añade este código a tu servidor \(debajo de los `require`\)
 {% code-tabs %}
 {% code-tabs-item title="server.js" %}
 ```javascript
-fs.readFile(__dirname + '/data/posts.json', function (error, file) {    console.log(file);});
+fs.readFile(__dirname + '/data/posts.json', function (error, file) {    
+    console.log(file);
+});
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
